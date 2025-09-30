@@ -4,3 +4,7 @@ document.querySelectorAll('.ashby-job-posting-brief-details p:first-child').forE
   const filtered = parts.filter((_, i) => i !== 0 && i !== 2);
   p.textContent = filtered.join(' • ');
 });
+
+console.log("Custom script loaded.");
+
+console.log(document.querySelectorAll('.ashby-job-posting-brief-details p:first-child'))
